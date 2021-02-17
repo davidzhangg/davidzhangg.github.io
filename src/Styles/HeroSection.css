@@ -1,0 +1,122 @@
+.banner-container {
+  background-image: url("../image/Code_presentation_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 98%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.social-med {
+  padding-bottom: 15px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.lst {
+  display: inline-block;
+  margin: 15px;
+}
+
+.social-icon {
+  font-size: 30px;
+  color: white;
+}
+
+.lst:hover {
+  transform: translateY(-8px);
+  transition: 0.3s;
+}
+
+.title-name {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  color: white;
+  text-shadow: 2px 2px lightgrey;
+  white-space: pre;
+}
+
+hr {
+  margin-top: 10px;
+  height: 1px;
+  width: 35vw;
+  opacity: 0.8;
+}
+
+.banner-container > p {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.banner-btns {
+  margin-top: 32px;
+}
+
+.banner-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 1024px) {
+  hr {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .banner-container > h1 {
+    font-size: 70px;
+    margin-top: -10px;
+  }
+
+  hr {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-container > h1 {
+    font-size: 5ex;
+    margin-top: -10px;
+  }
+
+  hr {
+    width: 80vw;
+  }
+
+  .banner-container > p {
+    font-size: 2ex;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

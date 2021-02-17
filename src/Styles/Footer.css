@@ -1,0 +1,124 @@
+.email-contact {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  background: #f2f2f2;
+}
+
+.envelope-logo {
+  text-align: center;
+  font-size: 55px;
+  margin-top: 50px;
+}
+
+.wrapup-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.rocket {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 90px;
+  cursor: pointer;
+}
+
+.hidden-text {
+  opacity: 0;
+  transition: 0.5s;
+  text-align: center;
+  font-size: 10px;
+  margin-top: -10px;
+}
+
+.footer-btns {
+  margin-top: 30px;
+}
+
+.contact-area {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  height: 250px;
+  background: #262626;
+  color: white;
+}
+
+.connect {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-top: 35px;
+  font-weight: lighter;
+}
+
+.social {
+  position: absolute;
+  top: 20%;
+  justify-content: center;
+}
+.ls {
+  list-style: none;
+  margin: 5px 5px;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.icon-design {
+  background-color: #333333;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+.social-icon i {
+  padding-top: 10px;
+}
+
+.social .icon-facebook:hover {
+  transform: scale(1.2);
+  background-color: #4267b2;
+  transition: all 0.5s;
+}
+
+.social .icon-insta:hover {
+  transform: scale(1.2);
+  background-color: #833ab4;
+  transition: all 0.5s;
+}
+
+.social .icon-github:hover {
+  transform: scale(1.2);
+  background-color: #f1502f;
+  transition: all 0.5s;
+}
+
+.social .icon-linkedin:hover {
+  transform: scale(1.2);
+  background-color: #0e76a8;
+  transition: all 0.5s;
+}
+
+.social .icon-email:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  background-color: #0072c6;
+}
+
+.rocket:hover + .hidden-text {
+  opacity: 1;
+  color: #fff;
+}

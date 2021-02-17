@@ -1,0 +1,95 @@
+.about-area {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.about-me {
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.about-text {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 35px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.resume-part {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.resume-part .resume-icon {
+  color: black;
+  font-size: 20px;
+}
+
+.resume-icon:hover {
+  opacity: 0.5;
+}
+
+.resume-text {
+  font-size: 12px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.interests {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 40%;
+  height: 200px;
+  background-color: #f2f2f2;
+  margin-bottom: 80px;
+}
+
+.interest-header {
+  text-align: center;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.interest-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: -30px;
+}
+
+.hobby-icon > i {
+  font-size: 50px;
+  text-align: center;
+  margin: 50px 5vw 0 5vw;
+}
+
+.hobby-name {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 960px) {
+  .interests {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .interests {
+    width: 90%;
+  }
+}

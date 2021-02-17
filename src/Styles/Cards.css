@@ -1,0 +1,134 @@
+.portfolio-area {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.subheader-text {
+  text-align: center;
+  font-weight: lighter;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.but {
+  margin: 60px 0 80px 0;
+}
+
+.btnn {
+  color: black;
+  position: relative;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  border: 2px solid #ff7675;
+  padding: 14px 50px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+
+.btnn::before {
+  background: #ff7675;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.btnn1::before {
+  width: 100%;
+  height: 0;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.btnn1:hover::before {
+  height: 380%;
+}
+
+.text-project {
+  margin-top: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* ----------------css for card -------------------------------*/
+
+.cards__item__img {
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.flip-card {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  margin: 20px;
+  transition: transform 0.2s;
+}
+
+.flip-card,
+.flip-card .front {
+  width: 300px;
+  height: 400px;
+}
+
+.flip-card .front {
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #424242;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 0 23px -9px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 23px -9px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.flip-card:hover {
+  transform: scale(1.1);
+}
+
+.card_languages {
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.project_name {
+  margin: 0;
+  width: 100%;
+  font-size: 18px;
+}
