@@ -3,7 +3,7 @@ import '../Styles/Cards.css'
 import { Link } from "react-router-dom"
 
 
-function CardItem(props) {
+const CardItem = (props) => {
 
   if (props.link[0] === "/") {
     return (
