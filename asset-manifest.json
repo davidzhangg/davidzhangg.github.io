@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e91c4bdb.chunk.css",
+    "main.js": "/static/js/main.ec78609a.chunk.js",
+    "main.js.map": "/static/js/main.ec78609a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.86fe9e4a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.86fe9e4a.js.map",
+    "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
+    "static/js/2.c3061397.chunk.js": "/static/js/2.c3061397.chunk.js",
+    "static/js/2.c3061397.chunk.js.map": "/static/js/2.c3061397.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.e91c4bdb.chunk.css.map": "/static/css/main.e91c4bdb.chunk.css.map",
+    "static/js/2.c3061397.chunk.js.LICENSE.txt": "/static/js/2.c3061397.chunk.js.LICENSE.txt",
+    "static/media/HeroSection.css": "/static/media/Code_presentation_background.79a84be0.png",
+    "static/media/Contact.css": "/static/media/contact_banner.83f7e347.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86fe9e4a.js",
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.c3061397.chunk.js",
+    "static/css/main.e91c4bdb.chunk.css",
+    "static/js/main.ec78609a.chunk.js"
+  ]
+}
